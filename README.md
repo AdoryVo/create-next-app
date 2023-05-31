@@ -24,12 +24,14 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
   - [Framer Motion](https://www.framer.com/motion/)
   - [Lucide icons](https://lucide.dev/docs/lucide-react)
   - [Radix UI](https://www.radix-ui.com/docs/primitives/overview/getting-started)
-  - [React Wrap Balancer](https://react-wrap-balancer.vercel.app/)
+  - [React Wrap Balancer](https://react-wrap-balancer.vercel.app)
   - [Tailwind CSS Typography plugin](https://tailwindcss.com/docs/typography-plugin)
 - Backend
   - [Auth.js](https://authjs.dev/getting-started/oauth-tutorial)
   - [bcrypt](https://www.npmjs.com/package/bcrypt)
   - [Prisma](https://www.prisma.io/docs/getting-started/quickstart)
+    - [PlanetScale](https://planetscale.com)
+    - [Vercel Postgres](https://vercel.com/storage/postgres)
 - DevOps/SEO
   - [@vercel/analytics](https://vercel.com/docs/concepts/analytics/quickstart)
   - [@vercel/og](https://vercel.com/docs/concepts/functions/edge-functions/og-image-generation)
@@ -37,7 +39,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 - Utils
   - [date-fns](https://date-fns.org/v2.30.0/docs/Getting-Started#installation)
   - [ms](https://www.npmjs.com/package/ms)
-  - [Zod](https://zod.dev/)
+  - [Zod](https://zod.dev)
 
 ## Learn More
 

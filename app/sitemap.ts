@@ -1,18 +1,11 @@
+import { BASE_URL } from '@/lib/constants'
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return [
-    {
-      url: 'https://acme.com',
-      lastModified: new Date(),
-    },
-    {
-      url: 'https://acme.com/about',
-      lastModified: new Date(),
-    },
-    {
-      url: 'https://acme.com/blog',
-      lastModified: new Date(),
-    },
-  ]
+  const routesMap = [''].map((route) => ({
+    url: `${BASE_URL}${route}`,
+    lastModified: new Date(),
+  }))
+
+  return routesMap
 }
