@@ -18,6 +18,27 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+## Options
+
+- Frontend
+  - [Framer Motion](https://www.framer.com/motion/)
+  - [Lucide icons](https://lucide.dev/docs/lucide-react)
+  - [Radix UI](https://www.radix-ui.com/docs/primitives/overview/getting-started)
+  - [React Wrap Balancer](https://react-wrap-balancer.vercel.app/)
+  - [Tailwind CSS Typography plugin](https://tailwindcss.com/docs/typography-plugin)
+- Backend
+  - [Auth.js](https://authjs.dev/getting-started/oauth-tutorial)
+  - [bcrypt](https://www.npmjs.com/package/bcrypt)
+  - [Prisma](https://www.prisma.io/docs/getting-started/quickstart)
+- DevOps/SEO
+  - [@vercel/analytics](https://vercel.com/docs/concepts/analytics/quickstart)
+  - [@vercel/og](https://vercel.com/docs/concepts/functions/edge-functions/og-image-generation)
+  - [Playwright](https://playwright.dev/docs/intro)
+- Utils
+  - [date-fns](https://date-fns.org/v2.30.0/docs/Getting-Started#installation)
+  - [ms](https://www.npmjs.com/package/ms)
+  - [Zod](https://zod.dev/)
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
