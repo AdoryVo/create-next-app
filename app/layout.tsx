@@ -1,3 +1,5 @@
+import Footer from '@/components/layout/footer'
+import Navbar from '@/components/layout/navbar'
 import { Inter } from 'next/font/google'
 import './globals.css'
 
@@ -15,7 +17,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className="fixed h-screen w-full bg-gradient-to-br from-indigo-200 via-white to-cyan-100" />
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   )
 }

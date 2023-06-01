@@ -20,10 +20,16 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Options
 
+Ideas pulled from
+[vercel/commerce](https://github.com/vercel/commerce),
+[shadcn/taxonomy](https://github.com/shadcn/taxonomy),
+[steven-tey/precedent](https://github.com/steven-tey/precedent).
+
 - Frontend
   - [Framer Motion](https://www.framer.com/motion/)
   - [Lucide icons](https://lucide.dev/docs/lucide-react)
   - [Radix UI](https://www.radix-ui.com/docs/primitives/overview/getting-started)
+  - [shadcn/ui](https://ui.shadcn.com/)
   - [React Wrap Balancer](https://react-wrap-balancer.vercel.app)
   - [Tailwind CSS Typography plugin](https://tailwindcss.com/docs/typography-plugin)
 - Backend
