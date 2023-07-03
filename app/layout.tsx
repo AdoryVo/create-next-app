@@ -1,6 +1,7 @@
 import Footer from '@/components/layout/footer'
 import Navbar from '@/components/layout/navbar'
 import { Inter } from 'next/font/google'
+import { Provider } from 'react-wrap-balancer'
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -18,10 +19,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="fixed h-screen w-full bg-gradient-to-br from-indigo-200 via-white to-cyan-100" />
-        <Navbar />
-        {children}
-        <Footer />
+        <Provider>
+          <div className="fixed h-screen w-full bg-gradient-to-br from-indigo-200 via-white to-cyan-100" />
+          <Navbar />
+          {children}
+          <Footer />
+        </Provider>
       </body>
     </html>
   )

@@ -23,29 +23,37 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 Ideas pulled from
 [vercel/commerce](https://github.com/vercel/commerce),
 [shadcn/taxonomy](https://github.com/shadcn/taxonomy),
-[steven-tey/precedent](https://github.com/steven-tey/precedent).
+[steven-tey/precedent](https://github.com/steven-tey/precedent),
+[sadmann7/skateshop](https://github.com/sadmann7/skateshop).
 
-- Frontend
+- UI
   - [Framer Motion](https://www.framer.com/motion/)
   - [Lucide icons](https://lucide.dev/docs/lucide-react)
   - [Radix UI](https://www.radix-ui.com/docs/primitives/overview/getting-started)
-  - [shadcn/ui](https://ui.shadcn.com/)
+  - [React Email](https://react.email)
+  - [shadcn/ui](https://ui.shadcn.com)
   - [React Wrap Balancer](https://react-wrap-balancer.vercel.app)
   - [Tailwind CSS Typography plugin](https://tailwindcss.com/docs/typography-plugin)
-- Backend
+- Server
   - [Auth.js](https://authjs.dev/getting-started/oauth-tutorial)
-  - [bcrypt](https://www.npmjs.com/package/bcrypt)
+  or [Clerk](https://clerk.com/docs/nextjs/get-started-with-nextjs)
   - [Prisma](https://www.prisma.io/docs/getting-started/quickstart)
-    - [PlanetScale](https://planetscale.com)
-    - [Vercel Postgres](https://vercel.com/storage/postgres)
+      - [PlanetScale](https://planetscale.com)
+      - [Vercel Postgres](https://vercel.com/storage/postgres)
+  - [Resend](https://resend.com)
+  - [Stripe](https://vercel.com/guides/getting-started-with-nextjs-typescript-stripe)
+  - [Tier](https://www.tier.run/docs/fullstack-framework-tutorials/flat-rate)
+- Utils
+  - [date-fns](https://date-fns.org/v2.30.0/docs/Getting-Started#installation)
+  or [Day.js](https://day.js.org/docs/en/installation/typescript)
+  - [inflect](https://www.npmjs.com/package/i)
+  - [ms](https://www.npmjs.com/package/ms)
+  - [uploadthing](https://docs.uploadthing.com)
+  - [Zod](https://zod.dev)
 - DevOps/SEO
   - [@vercel/analytics](https://vercel.com/docs/concepts/analytics/quickstart)
   - [@vercel/og](https://vercel.com/docs/concepts/functions/edge-functions/og-image-generation)
   - [Playwright](https://playwright.dev/docs/intro)
-- Utils
-  - [date-fns](https://date-fns.org/v2.30.0/docs/Getting-Started#installation)
-  - [ms](https://www.npmjs.com/package/ms)
-  - [Zod](https://zod.dev)
 
 ## Learn More
 
