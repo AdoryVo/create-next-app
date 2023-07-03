@@ -16,8 +16,7 @@ export default function Home() {
           style={{ animationDelay: '0.25s', animationFillMode: 'forwards' }}
         >
           <Balancer>
-            An opinionated collection of boilerplate structures for your Next.js
-            project.
+            An opinionated collection of boilerplates for your Next.js projects.
           </Balancer>
         </p>
       </div>
