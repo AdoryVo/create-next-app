@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write app/",
-    "format:all": "prettier --write --ignore-unknown ."
+    "format:all": "prettier --write --ignore-unknown .",
+    "shadcn:add": "pnpm dlx shadcn-ui@latest add"
   },
   "lint-staged": {
     "*": "prettier --write --ignore-unknown"
@@ -17,11 +18,15 @@
     "pre-commit": "lint-staged"
   },
   "dependencies": {
+    "class-variance-authority": "^0.6.1",
     "clsx": "^1.2.1",
+    "lucide-react": "^0.258.0",
     "next": "13.4.8",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-wrap-balancer": "^1.0.0"
+    "react-wrap-balancer": "^1.0.0",
+    "tailwind-merge": "^1.13.2",
+    "tailwindcss-animate": "^1.0.6"
   },
   "devDependencies": {
     "@types/node": "20.3.3",

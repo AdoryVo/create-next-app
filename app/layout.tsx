@@ -3,7 +3,7 @@ import Navbar from '@/components/layout/navbar'
 import { siteConfig } from '@/config/site'
 import { Inter } from 'next/font/google'
 import { Provider } from 'react-wrap-balancer'
-import './globals.css'
+import '../styles/globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
