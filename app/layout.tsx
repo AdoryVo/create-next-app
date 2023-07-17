@@ -1,8 +1,10 @@
-import Footer from '@/components/layout/footer'
-import Navbar from '@/components/layout/navbar'
-import { siteConfig } from '@/config/site'
 import { Inter } from 'next/font/google'
 import { Provider } from 'react-wrap-balancer'
+
+import { siteConfig } from '@/lib/config/site'
+import Footer from '@/components/layout/footer'
+import Navbar from '@/components/layout/navbar'
+
 import '../styles/globals.css'
 
 const inter = Inter({ subsets: ['latin'] })

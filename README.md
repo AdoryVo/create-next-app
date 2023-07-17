@@ -31,9 +31,10 @@ Ideas pulled from
   - [Lucide icons](https://lucide.dev/docs/lucide-react)
   - [Radix UI](https://www.radix-ui.com/docs/primitives/overview/getting-started)
   - [React Email](https://react.email)
-  - [shadcn/ui](https://ui.shadcn.com)
   - [React Wrap Balancer](https://react-wrap-balancer.vercel.app)
+  - [shadcn/ui](https://ui.shadcn.com)
   - [Tailwind CSS Typography plugin](https://tailwindcss.com/docs/typography-plugin)
+  - [Tremor](https://www.tremor.so/docs/getting-started/installation)
 - Server
   - [Auth.js](https://authjs.dev/getting-started/oauth-tutorial)
   or [Clerk](https://clerk.com/docs/nextjs/get-started-with-nextjs)
@@ -43,6 +44,8 @@ Ideas pulled from
   - [Resend](https://resend.com)
   - [Stripe](https://vercel.com/guides/getting-started-with-nextjs-typescript-stripe)
   - [Tier](https://www.tier.run/docs/fullstack-framework-tutorials/flat-rate)
+  - [Upstash (redis)](https://docs.upstash.com/redis)
+  - [Vercel AI SDK](https://sdk.vercel.ai/docs/getting-started)
 - Utils
   - [date-fns](https://date-fns.org/v2.30.0/docs/Getting-Started#installation)
   or [Day.js](https://day.js.org/docs/en/installation/typescript)
