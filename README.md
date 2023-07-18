@@ -1,8 +1,12 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💡 create-next-app (adory)
+
+An opinionated collection of boilerplates for Next.js projects.
 
 ## Getting Started
 
-First, run the development server:
+First, install dependencies with `npm install`, `pnpm install`, or your package manager of choice.
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -28,12 +32,15 @@ Ideas pulled from
 
 - UI
   - [Framer Motion](https://www.framer.com/motion/)
+  - [Lexical](https://lexical.dev/)
   - [Lucide icons](https://lucide.dev/docs/lucide-react)
   - [Radix UI](https://www.radix-ui.com/docs/primitives/overview/getting-started)
   - [React Email](https://react.email)
+  - [React Three Fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
   - [React Wrap Balancer](https://react-wrap-balancer.vercel.app)
   - [shadcn/ui](https://ui.shadcn.com)
   - [Tailwind CSS Typography plugin](https://tailwindcss.com/docs/typography-plugin)
+  - [Tiptap](https://tiptap.dev/)
   - [Tremor](https://www.tremor.so/docs/getting-started/installation)
 - Server
   - [Auth.js](https://authjs.dev/getting-started/oauth-tutorial)
@@ -53,6 +60,7 @@ Ideas pulled from
   - [ms](https://www.npmjs.com/package/ms)
   - [uploadthing](https://docs.uploadthing.com)
   - [Zod](https://zod.dev)
+  - [Zustand](https://docs.pmnd.rs/zustand/getting-started/introduction)
 - DevOps/SEO
   - [@vercel/analytics](https://vercel.com/docs/concepts/analytics/quickstart)
   - [@vercel/og](https://vercel.com/docs/concepts/functions/edge-functions/og-image-generation)

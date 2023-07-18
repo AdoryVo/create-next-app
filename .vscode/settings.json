@@ -7,5 +7,8 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.sortMembers": true
-  }
+  },
+  "tailwindCSS.experimental.classRegex": [
+    [ "clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)" ]
+  ]
 }
