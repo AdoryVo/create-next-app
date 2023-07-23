@@ -2,6 +2,31 @@
 
 An opinionated collection of boilerplates for Next.js projects.
 
+Planned boilerplates:
+- User platforms
+  - Business dashboards
+  - E-commerce
+- Visual demonstrations
+  - Blogs
+  - Marketing
+  - Portfolio
+
+Stack foundations:
+- React
+- Next.js App Router
+- Tailwind CSS
+- shadcn/ui
+- TypeScript
+
+Stack supporters:
+- Lucide icons
+- React Wrap Balancer
+- ESLint
+- Prettier
+- [@vercel/git-hooks](https://github.com/vercel/git-hooks) & [lint-staged](https://github.com/okonet/lint-staged)
+
+See more stack options below!
+
 ## Getting Started
 
 First, install dependencies with `npm install`, `pnpm install`, or your package manager of choice.
